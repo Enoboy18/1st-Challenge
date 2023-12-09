@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,800;1,500;1,700&display=swap');
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flexit{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15%;
+
+}
+.first-container{
+    background-color: hsl(252, 100%, 67%);
+    border-radius: 20px;
+    width: 250px;
+    height: 350px;
+}
+#Result{
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: white;
+
+}
+.score{
+    text-align: center;
+    background-color: hsl(241, 81%, 54%);
+    height: 110px;
+    width: 110px;
+    padding: 1.5rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-family: 'Hanken Grotesk', sans-serif;
+    
+}
+.remark{
+    text-align: center;
+    padding-top: 1rem;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: white;
+}
+#remarks{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 1rem;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: white;
+}
+.sco{
+    color: white;
+}
+.scoresheet{
+    background-color: white;
+}
+.summ{
+    margin-right: auto;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+#sum1{
+    padding: 1rem 1rem;
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.1);
+    margin: 0.2rem 1rem;
+    border-radius: 10px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    padding-left: auto;
+}
+#sum2{
+    padding: 1rem 1rem;
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.1);
+    margin: 0.2rem 1rem;
+    border-radius: 10px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    padding-left: auto;
+}
+#sum3{
+    padding: 1rem 1rem;
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 0.1 );
+    margin: 0.2rem 1rem;
+    border-radius: 10px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    padding-left: auto;
+}
+#sum4{
+    padding: 1rem 1rem;
+    color:hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.1);
+    margin: 0.2rem 1rem;
+    border-radius: 10px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    padding-left: auto;
+}   
+.spn{
+    padding-left: 3rem;
+}
+.con{
+    text-align: center;
+    background-color: hsl(241, 81%, 54%);
+    margin: 2rem 1rem;
+    padding:0.5rem 0 0.5rem 0;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
